@@ -1,0 +1,14 @@
+{
+  "website": {
+    "support": "https://discord.gg/milrato",
+    "domain": "http://localhost:3000/dashboard"
+  },
+  "config": {
+    "http": {
+      "port": 80
+    },
+    "callback": "https://Musicium.oxytomato.repl.co/callback",
+    "clientID": "890590386089787402",
+    "secret": "TltB0i82SCovU5fRJy4SB8PHnJaoOCIh"
+  }
+}

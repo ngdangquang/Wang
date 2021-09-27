@@ -1,0 +1,40 @@
+{
+    "ownerIDS": ["442355791412854784"],
+    "default_cooldown_in_sec" : 1.5,
+    "antiCrash": true,
+    "ping_message": true,
+    "delete_commands": true,
+    "somethingwentwrong_cmd": true,
+
+    "messages": {
+        "ping_message": "Để thấy tất cả lệnh sử dụng: `%{prefix}%help`",
+        "cooldown": "❌ Vui lòng đợi %{timeleft}% giây trước khi sử dụng lệnh `%{commandname}%`.",
+        "notallowed_to_exec_cmd": {
+            "title": "❌ Bạn không có quyền để sử dụng lệnh!",
+            "description": {
+                "memberpermissions": "Bạn cần những quyền sau:\n> %{commandmemberpermissions}%",
+                "alloweduserids": "Bạn cần là những user này để sử dụng:\n> %{commandalloweduserids}%",
+                "requiredroles": "Bạn cần những role sau để sử dụng:\n> %{commandrequiredroles}%",
+                "default": "VUI LÒNG CÓ ROLE CẦN THIẾT!"
+            }
+        },
+        "somethingwentwrong_cmd": {
+            "title": "❌ Đã có lỗi xảy ra khi chạy lệnh: `%{commandname}%`",
+            "description": "```%{errormessage}%```"
+        },
+        "unknown_cmd": "❌ Không rõ lệnh, vui lòng sử dụng: **`%{prefix}%help`**",
+        "error_occur": "❌ Đã có lỗi xảy ra",
+        "error_occur_desc": "````%{errorstack}%````"
+    },
+    "timeout": {
+        "notallowed_to_exec_cmd": {
+            "memberpermissions": 4500,
+            "alloweduserids": 3500,
+            "requiredroles": 3500
+        },
+        "minargs": 5000,
+        "maxargs": 5000,
+        "minplusargs": 5000,
+        "maxplusargs": 5000
+    }
+}
